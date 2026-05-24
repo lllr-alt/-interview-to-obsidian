@@ -13,7 +13,7 @@ description: |
 
 ## Vault 路径
 
-Obsidian vault 路径：`/Users/lianxunming/Documents/Obsidian Vault/`
+首次使用时，询问用户的 Obsidian vault 路径，后续记住该路径。
 
 面试题统一存放在 vault 下的 `面试题/` 文件夹中。
 
@@ -57,7 +57,7 @@ Obsidian vault 路径：`/Users/lianxunming/Documents/Obsidian Vault/`
 
 **写入方式**：直接用 Write/Edit 工具将 markdown 文件写入 vault 目录。这比 obsidian-cli 更可靠，不依赖额外配置。Obsidian 会自动检测到文件变化并刷新。
 
-**文件路径**：`/Users/lianxunming/Documents/Obsidian Vault/面试题/<分类名>.md`
+**文件路径**：`<vault路径>/面试题/<分类名>.md`
 
 **单个文件的结构**：
 
